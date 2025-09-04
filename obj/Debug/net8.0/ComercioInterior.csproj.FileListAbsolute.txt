@@ -1,0 +1,7 @@
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.csproj.AssemblyReference.cache
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.Properties.Resources.resources
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.csproj.GenerateResource.cache
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.AssemblyInfoInputs.cache
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.AssemblyInfo.cs
+C:\Users\agus_\OneDrive\Desktop\Facultad-\Programacion 2\Trabajo Practico\ComercioInterior\obj\Debug\net8.0\ComercioInterior.csproj.CoreCompileInputs.cache
