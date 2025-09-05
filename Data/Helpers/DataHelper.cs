@@ -52,30 +52,28 @@ namespace ComercioInterior.Data.Helper
                 }
                 catch (SqlException ex)
                 {
-                    // En caso de error, retornamos null
                     dt = null;
                 }
                 finally
                 {
-                    // Cerramos la conexión
                     _connection.Close();
                 }
 
                 return dt;
             }
 
-            // Método para ejecutar SPs con operaciones DML
+
             public bool ExecuteSpDml(string sp, List<SpParameter>? param = null)
             {
                 bool result;
                 try
                 {
-                    // Abrimos la conexión
+
                     _connection.Open();
                     var cmd = new SqlCommand(sp, _connection);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    // Agregamos parámetros si los hay
+
                     if (param != null)
                     {
                         foreach (SpParameter p in param)
@@ -90,12 +88,12 @@ namespace ComercioInterior.Data.Helper
                 }
                 catch (SqlException ex)
                 {
-                    // En caso de error, retornamos false
+
                     result = false;
                 }
                 finally
                 {
-                    // Cerramos la conexión
+                    
                     _connection.Close();
                 }
 
@@ -111,11 +109,12 @@ namespace ComercioInterior.Data.Helper
 
             cmd.CommandText = "sp_Guardar_Factura";
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@codigo", factura.Codigo);
+            cmd.Parameters.AddWithValue("@id", factura.Codigo);
             cmd.Parameters.AddWithValue("@fecha", factura.Fecha);
             cmd.Parameters.AddWithValue("@pago", factura.Pago);
-
-
+            SqlParameter idfactura = new SqlParameter("id", SqlDbType.Int);
+            idfactura.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(idfactura);
             int affectedRows = cmd.ExecuteNonQuery();
 
             if (affectedRows > 0)
@@ -125,6 +124,7 @@ namespace ComercioInterior.Data.Helper
             }
             else
             {
+                int idparafactura = (int)idfactura.Value;
                 
                 foreach (DetalleFactura i in factura.detalleFacturas)
                 {
@@ -134,7 +134,7 @@ namespace ComercioInterior.Data.Helper
 
 
 
-                    cmdDetalle.Parameters.AddWithValue("@nroFactura", i.NroFactura);
+                    cmdDetalle.Parameters.AddWithValue("@nroFactura", idparafactura);
                     cmdDetalle.Parameters.AddWithValue("@nroArticulo", i.NroArticulo);
                     cmdDetalle.Parameters.AddWithValue("@cantidad", i.Cantidad);
 

@@ -12,7 +12,6 @@ namespace ComercioInterior.Data.Helpers
         public object Valor { get; set; }
 
 
-
     }
 }
 
