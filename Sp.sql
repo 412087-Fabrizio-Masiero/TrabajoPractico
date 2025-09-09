@@ -1,8 +1,3 @@
-alter table Articulos
-add esta_activo int default 1;
-
-alter table Facturas
-add esta_activo int default 1;
 
 --Facturas
 CREATE PROCEDURE sp_ObtenerFactura
@@ -58,7 +53,7 @@ BEGIN
 	
 	BEGIN
 		update Facturas
-			set esta_activo= 0
+			set esta_activa= 0
 			where id=@id
 	END
 END
@@ -89,7 +84,7 @@ AS
 BEGIN 
 	IF @id = 0
 	BEGIN
-		insert into Articulos(nombre, precioUnitario, esta_activo) 
+		insert into Articulos(nombre, precioUnitario, esta_activa) 
 		values (@nombre,@precioUnitario, 1)	
 	END
 END
@@ -116,7 +111,7 @@ BEGIN
 	
 	BEGIN
 		update Articulos 
-			set esta_activo= 0
+			set esta_activa= 0
 			where id=@id
 	END
 END
@@ -127,6 +122,19 @@ CREATE PROCEDURE sp_Guardar_Detalle
     @cantidad INT
 AS
 BEGIN
-    INSERT INTO DetalleFactura (NroFactura, NroArticulo, Cantidad)
+    INSERT INTO Detalles_Factura (NroFactura, NroArticulo, Cantidad)
     VALUES (@nroFactura, @nroArticulo, @cantidad);
 END
+
+CREATE PROCEDURE sp_ObtenerPagoPorId
+    @idFactura  INT
+AS
+BEGIN
+    SELECT 
+        id,
+        nombre,
+        esta_activa
+    FROM Formas_Pago
+    WHERE id = @idFactura
+END
+GO

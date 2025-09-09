@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ComercioInterior.Services
 {
-    internal class DetalleService
+    public class DetalleService
     {
+        public int NroArticulo { get; set; }
+        public int Cantidad { get; set; }
+
+      
     }
 }

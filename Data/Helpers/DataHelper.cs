@@ -113,7 +113,7 @@ namespace ComercioInterior.Data.Helper
             cmd.Parameters.AddWithValue("@fecha", factura.Fecha);
             cmd.Parameters.AddWithValue("@pago", factura.Pago);
             SqlParameter idfactura = new SqlParameter("id", SqlDbType.Int);
-            idfactura.Direction = ParameterDirection.Output;
+            idfactura.Direction = ParameterDirection.Output; 
             cmd.Parameters.Add(idfactura);
             int affectedRows = cmd.ExecuteNonQuery();
 

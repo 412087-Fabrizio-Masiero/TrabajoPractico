@@ -43,5 +43,10 @@ namespace ComercioInterior.Services
             return _facturaRepository.Update(facturas);
         }
 
+        public List<Facturas> GetAll()
+        {
+            return _facturaRepository.GetAll();
+        }
+
     }
 }

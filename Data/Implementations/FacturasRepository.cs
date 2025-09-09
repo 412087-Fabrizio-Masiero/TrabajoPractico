@@ -8,11 +8,13 @@ using ComercioInterior.Data.Helper;
 using ComercioInterior.Data.Helpers;
 using ComercioInterior.Data.Interfaces;
 using ComercioInterior.Domain;
+using ComercioInterior.Services;
 
 namespace ComercioInterior.Data.Implementations
 {
     public class FacturasRepository : IFacturaRepository
     {
+        ArticuloService articuloRepo = new ArticuloService();
 
         public bool Delete(int id)
         {
@@ -41,13 +43,53 @@ namespace ComercioInterior.Data.Implementations
                     Fecha = (DateTime)l["fecha"],
                     Pago = (int)l["pago"],
                     Cliente = (string)l["cliente"]
-                    
                 };
 
+
+                List<SpParameter> param = new List<SpParameter>()
+            {
+                new SpParameter()
+                    {
+                        Name = "@idFactura",
+                        Valor = a.Codigo
+                    }
+                };
+
+                var dtDetalles = DataHelper.GetInstance().ExecuteSpQuery("sp_ObtenerFacturasConDetalles", param);
+
+                foreach (DataRow d in dtDetalles.Rows)
+                {
+                    int idArticulo = (int)d["NroArticulo"];
+                    Articulos art = articuloRepo.GetById(idArticulo);
+                    DetalleFactura detalle = new DetalleFactura()
+                    {
+                        Codigo = (int)d["id"],
+                        NroFacturaId = (int)d["NroFactura"],
+                        NroArticuloId = (int)d["NroArticulo"],
+                        Cantidad = (int)d["Cantidad"],
+                        NroArticulo = art
+                    };
+                    a.detalleFacturas.Add(detalle);
+                }
+
+                var dtPago = DataHelper.GetInstance().ExecuteSpQuery("sp_ObtenerPagoPorId", param);
+
+                if(dtPago.Rows.Count> 0)
+                {
+                    a.Pago = (int)dtPago.Rows[0]["id"];
+                    a.FormaPago = new FormaPago()
+                    {
+                        Codigo = (int)dtPago.Rows[0]["id"],
+                        Nombre = (string)dtPago.Rows[0]["nombre"]
+                    };
+                }
 
                 list.Add(a);
 
             }
+
+
+
 
             return list;
 
