@@ -29,10 +29,10 @@ namespace ComercioInterior.Services
         public bool Save(Facturas factura)
         {
             factura.detalleFacturas = factura.detalleFacturas
-            .GroupBy(d => d.NroArticulo)
+            .GroupBy(d => d.NroArticulo.Codigo)
             .Select(g => new DetalleFactura
                 {
-            NroArticulo = g.Key,
+            NroArticulo = g.First().NroArticulo,
             Cantidad = g.Sum(x => x.Cantidad)
                 }).ToList();
             return _facturaRepository.Save(factura);

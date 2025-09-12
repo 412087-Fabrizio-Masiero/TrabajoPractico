@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComercioInterior")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac7139eb3fd621c24ee864f70469b5fc1b660f12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d94fccd090c912e0e8178baf77c85e5aeb0e7a4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComercioInterior")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComercioInterior")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

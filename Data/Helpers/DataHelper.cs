@@ -102,58 +102,73 @@ namespace ComercioInterior.Data.Helper
 
         public bool executeTransaction(Facturas factura)
         {
-
             _connection.Open();
             SqlTransaction transaction = _connection.BeginTransaction();
-            var cmd = new SqlCommand("", _connection, transaction);
 
-            cmd.CommandText = "sp_Guardar_Factura";
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@id", factura.Codigo);
-            cmd.Parameters.AddWithValue("@fecha", factura.Fecha);
-            cmd.Parameters.AddWithValue("@pago", factura.Pago);
-            SqlParameter idfactura = new SqlParameter("id", SqlDbType.Int);
-            idfactura.Direction = ParameterDirection.Output; 
-            cmd.Parameters.Add(idfactura);
-            int affectedRows = cmd.ExecuteNonQuery();
+            try
+            {
 
-            if (affectedRows > 0)
-            {
-                transaction.Rollback();
-                return false;
-            }
-            else
-            {
+                SqlCommand cmd = new SqlCommand("sp_Guardar_Factura", _connection, transaction);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+
+                cmd.Parameters.AddWithValue("@fecha", factura.Fecha);
+                cmd.Parameters.AddWithValue("@pago", factura.Pago);
+                cmd.Parameters.AddWithValue("@cliente", factura.Cliente);
+
+
+                SqlParameter idfactura = new SqlParameter("@id", SqlDbType.Int);
+                idfactura.Direction = ParameterDirection.Output;
+
+                cmd.Parameters.Add(idfactura);
+
+                int affectedRows = cmd.ExecuteNonQuery();
+                if (affectedRows <= 0)
+                {
+                    transaction.Rollback();
+                    return false;
+                }
+
                 int idparafactura = (int)idfactura.Value;
-                
+
+
                 foreach (DetalleFactura i in factura.detalleFacturas)
                 {
-                    SqlCommand cmdDetalle = new SqlCommand("", _connection, transaction);
-                    cmdDetalle.CommandText = "sp_Guardar_Detalle";
-                    cmdDetalle.CommandType = CommandType.StoredProcedure;
-
-
-
-                    cmdDetalle.Parameters.AddWithValue("@nroFactura", idparafactura);
-                    cmdDetalle.Parameters.AddWithValue("@nroArticulo", i.NroArticulo);
-                    cmdDetalle.Parameters.AddWithValue("@cantidad", i.Cantidad);
-
-                    int affectedRowsDetalle = cmdDetalle.ExecuteNonQuery();
-
-                    if (affectedRowsDetalle <= 0)
+                    if (i.NroArticulo == null)
                     {
                         transaction.Rollback();
                         return false;
                     }
 
+                    SqlCommand cmdDetalle = new SqlCommand("sp_Guardar_Detalle", _connection, transaction);
+                    cmdDetalle.CommandType = CommandType.StoredProcedure;
+                    cmdDetalle.Parameters.AddWithValue("@nroFactura", idparafactura);
+                    cmdDetalle.Parameters.AddWithValue("@nroArticulo", i.NroArticulo.Codigo);
+                    cmdDetalle.Parameters.AddWithValue("@cantidad", i.Cantidad);
 
+                    int affectedRowsDetalle = cmdDetalle.ExecuteNonQuery();
+                    if (affectedRowsDetalle <= 0)
+                    {
+                        transaction.Rollback();
+                        return false;
+                    }
                 }
+
                 transaction.Commit();
                 return true;
-
             }
-
-            
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error en executeTransaction: " + ex.Message);
+                transaction.Rollback();
+                return false;
+            }
+            finally
+            {
+                _connection.Close();
+            }
         }
+
+
     }
 }
