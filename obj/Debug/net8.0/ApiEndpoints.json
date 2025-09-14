@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.ArticulosController",
+    "Method": "Update",
+    "RelativePath": "api/Articulos/Actualizacion/Articulo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articulo",
+        "Type": "ComercioInteriorV1.Domain.Articulos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.ArticulosController",
+    "Method": "Delete",
+    "RelativePath": "api/Articulos/Articulo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.ArticulosController",
+    "Method": "Index",
+    "RelativePath": "api/Articulos/Articulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.ArticulosController",
+    "Method": "GetID",
+    "RelativePath": "api/Articulos/Articulos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.ArticulosController",
+    "Method": "Create",
+    "RelativePath": "api/Articulos/Create/Articulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articulo",
+        "Type": "ComercioInteriorV1.Domain.Articulos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.FacturaController",
+    "Method": "Create",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facturas",
+        "Type": "ComercioInteriorV1.Domain.Facturas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.FacturaController",
+    "Method": "Update",
+    "RelativePath": "api/Factura/Actualizacion/Factura/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "factura",
+        "Type": "ComercioInteriorV1.Domain.Facturas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.FacturaController",
+    "Method": "Delete",
+    "RelativePath": "api/Factura/Delete/Factura/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.FacturaController",
+    "Method": "GetID",
+    "RelativePath": "api/Factura/Facttura/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV1.Controllers.FacturaController",
+    "Method": "GetAll",
+    "RelativePath": "Facturas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

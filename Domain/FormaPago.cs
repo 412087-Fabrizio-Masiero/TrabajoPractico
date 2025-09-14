@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ComercioInteriorV1.Domain
+{
+    public class FormaPago
+    {
+        public int Codigo { get; set; }
+        public string Nombre { get; set; }
+
+        public override string ToString()
+        {
+            return "Pago de forma " + Nombre ;
+        }
+    }
+}
