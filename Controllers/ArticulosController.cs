@@ -103,7 +103,7 @@ namespace ComercioInteriorV1.Controllers
 
 
         [HttpDelete]
-        [Route("Articulo/{id}")]
+        [Route("Delete/Articulo/{id}")]
 
         public IActionResult Delete(int id) {
             try

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{37D98541-B0B6-4F4C-8331-00C1183A8CFC}|ComercioInteriorV1.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv1\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D98541-B0B6-4F4C-8331-00C1183A8CFC}|ComercioInteriorV1.csproj|solutionrelative:controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37D98541-B0B6-4F4C-8331-00C1183A8CFC}|ComercioInteriorV1.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv1\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D98541-B0B6-4F4C-8331-00C1183A8CFC}|ComercioInteriorV1.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV1\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV1\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:22:10.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FacturaController.cs",
               "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV1\\Controllers\\FacturaController.cs",
               "RelativeDocumentMoniker": "Controllers\\FacturaController.cs",
               "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV1\\Controllers\\FacturaController.cs",
               "RelativeToolTip": "Controllers\\FacturaController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowIAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowBkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T02:32:56.205Z",
+              "WhenOpened": "2025-09-14T03:22:06.774Z",
               "EditorCaption": ""
             }
           ]

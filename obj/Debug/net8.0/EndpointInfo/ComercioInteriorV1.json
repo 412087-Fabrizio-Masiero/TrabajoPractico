@@ -113,7 +113,7 @@
         }
       }
     },
-    "/api/Articulos/Articulo/{id}": {
+    "/api/Articulos/Delete/Articulo/{id}": {
       "delete": {
         "tags": [
           "Articulos"
@@ -136,7 +136,7 @@
         }
       }
     },
-    "/Facturas": {
+    "/api/Factura/Facturas": {
       "get": {
         "tags": [
           "Factura"

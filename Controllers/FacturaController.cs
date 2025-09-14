@@ -24,7 +24,7 @@ namespace ComercioInteriorV1.Controllers
 
         // GET: api/<FacturaController>
         [HttpGet]
-        [Route("/Facturas")]
+        [Route("Facturas")]
         public IActionResult GetAll()
         {
             try
