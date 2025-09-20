@@ -1,0 +1,15 @@
+# Archivos y carpetas generados por Visual Studio / .NET
+bin/
+obj/
+
+# Archivos temporales de usuario de VS
+*.user
+*.suo
+*.vscode/
+
+# Archivos de configuración de IIS Express
+/.vs/
+
+# Otros archivos generados
+*.log
+*.db

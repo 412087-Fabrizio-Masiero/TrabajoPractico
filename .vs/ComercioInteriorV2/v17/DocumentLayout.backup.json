@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\repository\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\repository\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\repository\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\repository\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\repository\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\repository\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\repository\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\repository\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\models\\comerciointeriordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\models\\comerciointeriordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\models\\formaspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\models\\formaspago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\models\\detallesfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\models\\detallesfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|c:\\users\\agus_\\onedrive\\desktop\\facultad-\\programacion 2\\trabajopractico\\comerciointeriorv2\\data\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A6DB33-727F-4D44-A32C-F345E775136A}|ComercioInteriorV2.csproj|solutionrelative:data\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:41:58.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\FacturaRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\FacturaRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:17:13.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\ArticuloRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\ArticuloRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:16:56.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\IFacturaRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\IFacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:14:15.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Repository\\IArticuloRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\IArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:13:57.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:41:43.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComercioInteriorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\ComercioInteriorDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\ComercioInteriorDbContext.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\ComercioInteriorDbContext.cs",
+              "RelativeToolTip": "Data\\Models\\ComercioInteriorDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:08:27.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\Factura.cs",
+              "RelativeToolTip": "Data\\Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:08:47.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:26:31.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T01:12:46.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormasPago.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\FormasPago.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\FormasPago.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\FormasPago.cs",
+              "RelativeToolTip": "Data\\Models\\FormasPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:08:49.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetallesFactura.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\DetallesFactura.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\DetallesFactura.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\DetallesFactura.cs",
+              "RelativeToolTip": "Data\\Models\\DetallesFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:08:46.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\agus_\\OneDrive\\Desktop\\Facultad-\\Programacion 2\\TrabajoPractico\\ComercioInteriorV2\\Data\\Models\\Articulo.cs",
+              "RelativeToolTip": "Data\\Models\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T01:08:44.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
