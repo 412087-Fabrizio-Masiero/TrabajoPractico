@@ -1,0 +1,165 @@
+[
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.ArticuloController",
+    "Method": "Update",
+    "RelativePath": "api/Articulo/Actualizacion/Articulo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articulo",
+        "Type": "ComercioInteriorV2.Data.Models.Articulo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.ArticuloController",
+    "Method": "get",
+    "RelativePath": "api/Articulo/Articulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.ArticuloController",
+    "Method": "GetID",
+    "RelativePath": "api/Articulo/Articulos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.ArticuloController",
+    "Method": "Create",
+    "RelativePath": "api/Articulo/Create/Articulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articulo",
+        "Type": "ComercioInteriorV2.Data.Models.Articulo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.ArticuloController",
+    "Method": "Delete",
+    "RelativePath": "api/Articulo/Delete/Articulo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.FacturaController",
+    "Method": "Get",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.FacturaController",
+    "Method": "GetID",
+    "RelativePath": "api/Factura/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.FacturaController",
+    "Method": "Update",
+    "RelativePath": "api/Factura/Actualizacion/Factura/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "factura",
+        "Type": "ComercioInteriorV2.Data.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.FacturaController",
+    "Method": "Delete",
+    "RelativePath": "api/Factura/Delete/Factura/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComercioInteriorV2.Controllers.FacturaController",
+    "Method": "Create",
+    "RelativePath": "api/Factura/Factura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facturas",
+        "Type": "ComercioInteriorV2.Data.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
