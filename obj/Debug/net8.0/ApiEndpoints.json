@@ -1,0 +1,98 @@
+[
+  {
+    "ContainingType": "EnvioDeProductos.Controllers.EnvioController",
+    "Method": "Post",
+    "RelativePath": "api/Envio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EnvioDeProductos.Controllers.EnvioController",
+    "Method": "Put",
+    "RelativePath": "api/Envio/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EnvioDeProductos.Controllers.EnvioController",
+    "Method": "Delete",
+    "RelativePath": "api/Envio/Cancelar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EnvioDeProductos.Controllers.EnvioController",
+    "Method": "Get",
+    "RelativePath": "api/Envio/Envios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EnvioDeProductos.Controllers.EnvioController",
+    "Method": "GetDirecionOrEstado",
+    "RelativePath": "api/Envio/Envios/Direccion\u0026estado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "direcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
